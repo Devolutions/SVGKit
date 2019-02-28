@@ -152,7 +152,7 @@
                                                                               relativeTo:CGPointZero
                                                                               isRelative:FALSE];
                     } else  {
-                        SVGKitLogWarn(@"unsupported command %@", command);
+//                        SVGKitLogWarn(@"unsupported command %@", command);
                     }
                 }
             }

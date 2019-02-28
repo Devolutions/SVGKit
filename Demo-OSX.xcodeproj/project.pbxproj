@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		323C2E29218437C600741D80 /* Mozilla_Firefox_logo_2013.svg in Resources */ = {isa = PBXBuildFile; fileRef = 323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */; };
-		32B5A1E4217333C200CAA60C /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */; };
-		32B5A1E6217333C800CAA60C /* CocoaLumberjack.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		32C4FD3A2173976C00FBEDBF /* radialGradientTest.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */; };
 		32C4FD3B2173976C00FBEDBF /* g-element-applies-rotation.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */; };
 		32C4FD3C2173976C00FBEDBF /* Blank_Map-Africa.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF72173976C00FBEDBF /* Blank_Map-Africa.svg */; };
@@ -276,7 +274,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				32EE37932173434B00A23278 /* SVGKit.framework in Copy Frameworks */,
-				32B5A1E6217333C800CAA60C /* CocoaLumberjack.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +378,6 @@
 			files = (
 				32EE37922173434B00A23278 /* SVGKit.framework in Frameworks */,
 				32EE37912173433B00A23278 /* SVGKit.framework in Frameworks */,
-				32B5A1E4217333C200CAA60C /* CocoaLumberjack.framework in Frameworks */,
 				55D8EE2817628A71009C25F1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,58 +388,58 @@
 		32C4FCF42173976B00FBEDBF /* SVG */ = {
 			isa = PBXGroup;
 			children = (
-				323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */,
-				32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */,
-				32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */,
-				32C4FCF72173976C00FBEDBF /* Blank_Map-Africa.svg */,
-				32C4FCF82173976C00FBEDBF /* australia_states_blank.svg */,
-				32C4FCF92173976C00FBEDBF /* imageWithASinglePointPath.svg */,
-				32C4FCFA2173976C00FBEDBF /* Map.svg */,
-				32C4FCFB2173976C00FBEDBF /* parent-clip.svg */,
-				32C4FCFC2173976C00FBEDBF /* Reinel_compass_rose-simplified-more.svg */,
-				32C4FCFD2173976C00FBEDBF /* NewTux.svg */,
-				32C4FCFE2173976C00FBEDBF /* Lion.svg */,
-				32C4FCFF2173976C00FBEDBF /* bird-1382034603Euc-cropped.png */,
-				32C4FD002173976C00FBEDBF /* test-stroke-dash-array.svg */,
-				32C4FD012173976C00FBEDBF /* breaking-1.svg */,
-				32C4FD022173976C00FBEDBF /* Scale-Negative-Direction.svg */,
-				32C4FD032173976C00FBEDBF /* RainbowWing.svg */,
-				32C4FD042173976C00FBEDBF /* Note.svg */,
-				32C4FD052173976C00FBEDBF /* Reinel_compass_rose-simplified-evenmore.svg */,
-				32C4FD062173976C00FBEDBF /* imagetag-layer2-sun.svg */,
-				32C4FD072173976C00FBEDBF /* sakamura-default-fill-opacity-test.svg */,
-				32C4FD082173976C00FBEDBF /* groups-and-layers-test.svg */,
-				32C4FD092173976C00FBEDBF /* Europe_states_reduced.svg */,
-				32C4FD0A2173976C00FBEDBF /* ImageAspectRatio.svg */,
-				32C4FD0B2173976C00FBEDBF /* test-wave-1.svg */,
-				32C4FD0C2173976C00FBEDBF /* Coins.svg */,
-				32C4FD0D2173976C00FBEDBF /* Text.svg */,
-				32C4FD0E2173976C00FBEDBF /* M-to-S-to-T.svg */,
-				32C4FD0F2173976C00FBEDBF /* rounded-rects.svg */,
-				32C4FD102173976C00FBEDBF /* Reinel_compass_rose.svg */,
-				32C4FD112173976C00FBEDBF /* CSS.css */,
-				32C4FD122173976C00FBEDBF /* radial-gradient-opacity.svg */,
-				32C4FD132173976C00FBEDBF /* CSS.svg */,
-				32C4FD142173976C00FBEDBF /* www.w3.org-TR-SVG */,
-				32C4FD222173976C00FBEDBF /* Reinel_compass_rose-simplified-for-testing.svg */,
-				32C4FD232173976C00FBEDBF /* svg-with-explicit-width-large.svg */,
-				32C4FD242173976C00FBEDBF /* MathCurve-optimized.svg */,
-				32C4FD252173976C00FBEDBF /* uk-only.svg */,
-				32C4FD262173976C00FBEDBF /* Monkey.svg */,
-				32C4FD272173976C00FBEDBF /* Snowman.png */,
-				32C4FD282173976C00FBEDBF /* imagetag-layered.svg */,
-				32C4FD292173976C00FBEDBF /* map-alaska-onlysimple.svg */,
-				32C4FD2A2173976C00FBEDBF /* Cycling_Lambie.svg */,
-				32C4FD2B2173976C00FBEDBF /* CurvedDiamond.svg */,
-				32C4FD2C2173976C00FBEDBF /* Location_European_nation_states.svg */,
 				32C4FD2D2173976C00FBEDBF /* apache-licensed-from-svg-android */,
-				32C4FD332173976C00FBEDBF /* svg-with-explicit-width.svg */,
+				32C4FCF82173976C00FBEDBF /* australia_states_blank.svg */,
 				32C4FD342173976C00FBEDBF /* bike-frame.svg */,
-				32C4FD352173976C00FBEDBF /* Coin.png */,
+				32C4FCFF2173976C00FBEDBF /* bird-1382034603Euc-cropped.png */,
+				32C4FCF72173976C00FBEDBF /* Blank_Map-Africa.svg */,
 				32C4FD362173976C00FBEDBF /* BlankMap-World6-Equirectangular.svg */,
-				32C4FD372173976C00FBEDBF /* rotated-and-skewed-text.svg */,
-				32C4FD382173976C00FBEDBF /* voies.svg */,
+				32C4FD012173976C00FBEDBF /* breaking-1.svg */,
+				32C4FD352173976C00FBEDBF /* Coin.png */,
+				32C4FD0C2173976C00FBEDBF /* Coins.svg */,
+				32C4FD112173976C00FBEDBF /* CSS.css */,
+				32C4FD132173976C00FBEDBF /* CSS.svg */,
+				32C4FD2B2173976C00FBEDBF /* CurvedDiamond.svg */,
+				32C4FD2A2173976C00FBEDBF /* Cycling_Lambie.svg */,
+				32C4FD092173976C00FBEDBF /* Europe_states_reduced.svg */,
+				32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */,
+				32C4FD082173976C00FBEDBF /* groups-and-layers-test.svg */,
 				32C4FD392173976C00FBEDBF /* heart.svg */,
+				32C4FD0A2173976C00FBEDBF /* ImageAspectRatio.svg */,
+				32C4FD062173976C00FBEDBF /* imagetag-layer2-sun.svg */,
+				32C4FD282173976C00FBEDBF /* imagetag-layered.svg */,
+				32C4FCF92173976C00FBEDBF /* imageWithASinglePointPath.svg */,
+				32C4FCFE2173976C00FBEDBF /* Lion.svg */,
+				32C4FD2C2173976C00FBEDBF /* Location_European_nation_states.svg */,
+				32C4FD0E2173976C00FBEDBF /* M-to-S-to-T.svg */,
+				32C4FD292173976C00FBEDBF /* map-alaska-onlysimple.svg */,
+				32C4FCFA2173976C00FBEDBF /* Map.svg */,
+				32C4FD242173976C00FBEDBF /* MathCurve-optimized.svg */,
+				32C4FD262173976C00FBEDBF /* Monkey.svg */,
+				323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */,
+				32C4FCFD2173976C00FBEDBF /* NewTux.svg */,
+				32C4FD042173976C00FBEDBF /* Note.svg */,
+				32C4FCFB2173976C00FBEDBF /* parent-clip.svg */,
+				32C4FD122173976C00FBEDBF /* radial-gradient-opacity.svg */,
+				32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */,
+				32C4FD032173976C00FBEDBF /* RainbowWing.svg */,
+				32C4FD052173976C00FBEDBF /* Reinel_compass_rose-simplified-evenmore.svg */,
+				32C4FD222173976C00FBEDBF /* Reinel_compass_rose-simplified-for-testing.svg */,
+				32C4FCFC2173976C00FBEDBF /* Reinel_compass_rose-simplified-more.svg */,
+				32C4FD102173976C00FBEDBF /* Reinel_compass_rose.svg */,
+				32C4FD372173976C00FBEDBF /* rotated-and-skewed-text.svg */,
+				32C4FD0F2173976C00FBEDBF /* rounded-rects.svg */,
+				32C4FD072173976C00FBEDBF /* sakamura-default-fill-opacity-test.svg */,
+				32C4FD022173976C00FBEDBF /* Scale-Negative-Direction.svg */,
+				32C4FD272173976C00FBEDBF /* Snowman.png */,
+				32C4FD232173976C00FBEDBF /* svg-with-explicit-width-large.svg */,
+				32C4FD332173976C00FBEDBF /* svg-with-explicit-width.svg */,
+				32C4FD002173976C00FBEDBF /* test-stroke-dash-array.svg */,
+				32C4FD0B2173976C00FBEDBF /* test-wave-1.svg */,
+				32C4FD0D2173976C00FBEDBF /* Text.svg */,
+				32C4FD252173976C00FBEDBF /* uk-only.svg */,
+				32C4FD382173976C00FBEDBF /* voies.svg */,
+				32C4FD142173976C00FBEDBF /* www.w3.org-TR-SVG */,
 			);
 			name = SVG;
 			path = "Demo-Samples/SVG";
@@ -485,7 +481,7 @@
 		32EE377A2173431300A23278 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32EE37842173431300A23278 /* libSVGKit-iOS.2.0.0.a */,
+				32EE37842173431300A23278 /* libSVGKit-iOS.2.1.0.a */,
 				32EE37862173431300A23278 /* SVGKit-iOS Tests.xctest */,
 				32EE37882173431300A23278 /* SVGKit.framework */,
 				32EE378A2173431300A23278 /* SVGKitFramework-iOSTests.xctest */,
@@ -657,10 +653,10 @@
 			remoteRef = 327B288A217DA6D2004D27FC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		32EE37842173431300A23278 /* libSVGKit-iOS.2.0.0.a */ = {
+		32EE37842173431300A23278 /* libSVGKit-iOS.2.1.0.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libSVGKit-iOS.2.0.0.a";
+			path = "libSVGKit-iOS.2.1.0.a";
 			remoteRef = 32EE37832173431300A23278 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};

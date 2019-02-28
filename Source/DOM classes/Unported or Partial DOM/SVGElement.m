@@ -72,7 +72,7 @@
 		
 	if( isTagAllowedToBeAViewport && isTagDefiningAViewport )
 	{
-		SVGKitLogVerbose(@"[%@] WARNING: setting self (tag = %@) to be a viewport", [self class], self.tagName );
+//        SVGKitLogVerbose(@"[%@] WARNING: setting self (tag = %@) to be a viewport", [self class], self.tagName );
 		self.viewportElement =  self;
 	}
 	else
@@ -150,7 +150,7 @@
 				 
 				 For now: we simply "do nothing but set everything to nil"
 				 */
-				SVGKitLogWarn( @"SVGElement has had its parent set to nil; this makes the element and tree beneath it no-longer-valid SVG data; this may require fix-up if you try to re-add that SVGElement or any of its children back to an existing/new SVG tree");
+//                SVGKitLogWarn( @"SVGElement has had its parent set to nil; this makes the element and tree beneath it no-longer-valid SVG data; this may require fix-up if you try to re-add that SVGElement or any of its children back to an existing/new SVG tree");
 				self.rootOfCurrentDocumentFragment = nil;
 			}
 			else
@@ -166,7 +166,7 @@
 				[self reCalculateAndSetViewportElementReferenceUsingFirstSVGAncestor:firstAncestorThatIsAnyKindOfSVGElement];
 				
 #if DEBUG_SVG_ELEMENT_PARSING
-				SVGKitLogVerbose(@"viewport Element = %@ ... for node/element = %@", self.viewportElement, self.tagName);
+//                SVGKitLogVerbose(@"viewport Element = %@ ... for node/element = %@", self.viewportElement, self.tagName);
 #endif
 			}
 		}
@@ -262,12 +262,12 @@
 		{
 			NSString* transformString = [value substringWithRange:[result range]];
 			
-			//EXTREME DEBUG: SVGKitLogVerbose(@"[%@] DEBUG: found a transform element (should be command + open bracket + args + close bracket) = %@", [self class], transformString);
+//            EXTREME DEBUG: SVGKitLogVerbose(@"[%@] DEBUG: found a transform element (should be command + open bracket + args + close bracket) = %@", [self class], transformString);
 			
 			NSRange loc = [transformString rangeOfString:@"("];
 			if( loc.length == 0 )
 			{
-				SVGKitLogError(@"[%@] ERROR: input file is illegal, has an item in the SVG transform attribute which has no open-bracket. Item = %@, transform attribute value = %@", [self class], transformString, value );
+//                SVGKitLogError(@"[%@] ERROR: input file is illegal, has an item in the SVG transform attribute which has no open-bracket. Item = %@, transform attribute value = %@", [self class], transformString, value );
 				return;
 			}
 			NSString* command = [transformString substringToIndex:loc.location];
@@ -345,7 +345,7 @@
 //					selfTransformable.transform = CGAffineTransformConcat( nt, selfTransformable.transform ); // Apple's method appears to be backwards, and not doing what Apple's docs state
 					} else
 					{
-					SVGKitLogError(@"[%@] ERROR: input file is illegal, has an SVG matrix transform attribute without the required 1 or 3 parameters. Item = %@, transform attribute value = %@", [self class], transformString, value );
+//                    SVGKitLogError(@"[%@] ERROR: input file is illegal, has an SVG matrix transform attribute without the required 1 or 3 parameters. Item = %@, transform attribute value = %@", [self class], transformString, value );
 					return;
 				}
 			}

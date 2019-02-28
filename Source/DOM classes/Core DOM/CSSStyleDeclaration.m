@@ -3,7 +3,6 @@
 #import "CSSValue.h"
 #import "CSSValueList.h"
 #import "CSSPrimitiveValue.h"
-#import "CocoaLumberjack/DDFileLogger.h"
 
 @interface CSSStyleDeclaration()
 
@@ -105,7 +104,7 @@
 		
 		accum[accumIdx++] = c;
 		if (accumIdx >= MAX_ACCUM) {
-			SVGKitLogWarn(@"Buffer ovverun while parsing style sheet - skipping");
+//            SVGKitLogWarn(@"Buffer ovverun while parsing style sheet - skipping");
 			return dict;
 		}
 	}
