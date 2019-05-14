@@ -288,6 +288,11 @@
 		4FD821F11AC69F6600E419D3 /* SVGSwitchElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD821EF1AC69F6600E419D3 /* SVGSwitchElement.m */; };
 		55452BF719EC68A200B75A30 /* libSVGKit-iOS.2.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639618E16145D0400E58CCA /* libSVGKit-iOS.2.1.0.a */; };
 		55452C0E19EC6EC600B75A30 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639633F16145DDC00E58CCA /* libxml2.dylib */; };
+		653EB957228B0BC6000084D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 653EB956228B0BC6000084D2 /* AppDelegate.m */; };
+		653EB959228B0BC8000084D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653EB958228B0BC8000084D2 /* Assets.xcassets */; };
+		653EB95C228B0BC8000084D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653EB95A228B0BC8000084D2 /* MainMenu.xib */; };
+		653EB95F228B0BC8000084D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 653EB95E228B0BC8000084D2 /* main.m */; };
+		653EB964228B0EE2000084D2 /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321EAA622171EC8700640504 /* SVGKit.framework */; };
 		660D50011C4292A6004187D0 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660D4FF01C42927A004187D0 /* CocoaLumberjack.framework */; };
 		660D50021C4292DB004187D0 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660D4FF01C42927A004187D0 /* CocoaLumberjack.framework */; };
 		660D50031C429377004187D0 /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 660D4FF01C42927A004187D0 /* CocoaLumberjack.framework */; };
@@ -1057,6 +1062,14 @@
 		4FD821EE1AC69F6600E419D3 /* SVGSwitchElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGSwitchElement.h; sourceTree = "<group>"; };
 		4FD821EF1AC69F6600E419D3 /* SVGSwitchElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGSwitchElement.m; sourceTree = "<group>"; };
 		55452BF119EC68A200B75A30 /* SVGKit-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SVGKit-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		653EB953228B0BC6000084D2 /* SVGSourceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGSourceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653EB955228B0BC6000084D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		653EB956228B0BC6000084D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		653EB958228B0BC8000084D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		653EB95B228B0BC8000084D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		653EB95D228B0BC8000084D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653EB95E228B0BC8000084D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		653EB960228B0BC8000084D2 /* SVGSourceTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SVGSourceTest.entitlements; sourceTree = "<group>"; };
 		660D4FEE1C42927A004187D0 /* C8F542F0-5DE9-3E06-AD55-EFC5E64C6D06.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "C8F542F0-5DE9-3E06-AD55-EFC5E64C6D06.bcsymbolmap"; sourceTree = "<group>"; };
 		660D4FEF1C42927A004187D0 /* CBCCBFAB-2074-328B-96C3-72FF2F15563F.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CBCCBFAB-2074-328B-96C3-72FF2F15563F.bcsymbolmap"; sourceTree = "<group>"; };
 		660D4FF01C42927A004187D0 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
@@ -1345,6 +1358,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		653EB950228B0BC6000084D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653EB964228B0EE2000084D2 /* SVGKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6639618B16145D0400E58CCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1434,6 +1455,20 @@
 			path = "SVGKitFramework-OSXTests";
 			sourceTree = "<group>";
 		};
+		653EB954228B0BC6000084D2 /* SVGSourceTest */ = {
+			isa = PBXGroup;
+			children = (
+				653EB955228B0BC6000084D2 /* AppDelegate.h */,
+				653EB956228B0BC6000084D2 /* AppDelegate.m */,
+				653EB958228B0BC8000084D2 /* Assets.xcassets */,
+				653EB95A228B0BC8000084D2 /* MainMenu.xib */,
+				653EB95D228B0BC8000084D2 /* Info.plist */,
+				653EB95E228B0BC8000084D2 /* main.m */,
+				653EB960228B0BC8000084D2 /* SVGSourceTest.entitlements */,
+			);
+			path = SVGSourceTest;
+			sourceTree = "<group>";
+		};
 		660D4FEB1C42927A004187D0 /* 3rd party frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1515,6 +1550,7 @@
 				6639633E16145D7700E58CCA /* EXTERNAL REFERENCES */,
 				66DBE4B81C429FF100A0F0B7 /* SVGKitLibrary */,
 				66DBE4E71C42A0AD00A0F0B7 /* SVGKitFrameworks */,
+				653EB954228B0BC6000084D2 /* SVGSourceTest */,
 				6639619016145D0400E58CCA /* Frameworks */,
 				6639618F16145D0400E58CCA /* Products */,
 			);
@@ -1531,6 +1567,7 @@
 				825CDADC1BDA4D38003C1C12 /* SVGKitFramework-tvOSTests.xctest */,
 				321EAA622171EC8700640504 /* SVGKit.framework */,
 				32A1F09C21746F4700ABFCE1 /* SVGKitFramework-OSXTests.xctest */,
+				653EB953228B0BC6000084D2 /* SVGSourceTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2574,6 +2611,23 @@
 			productReference = 55452BF119EC68A200B75A30 /* SVGKit-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		653EB952228B0BC6000084D2 /* SVGSourceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653EB963228B0BC8000084D2 /* Build configuration list for PBXNativeTarget "SVGSourceTest" */;
+			buildPhases = (
+				653EB94F228B0BC6000084D2 /* Sources */,
+				653EB950228B0BC6000084D2 /* Frameworks */,
+				653EB951228B0BC6000084D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVGSourceTest;
+			productName = SVGSourceTest;
+			productReference = 653EB953228B0BC6000084D2 /* SVGSourceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6639618D16145D0400E58CCA /* SVGKit-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6639619C16145D0400E58CCA /* Build configuration list for PBXNativeTarget "SVGKit-iOS" */;
@@ -2686,6 +2740,11 @@
 					55452BF019EC68A200B75A30 = {
 						CreatedOnToolsVersion = 6.1;
 					};
+					653EB952228B0BC6000084D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = N592S9ASDB;
+						ProvisioningStyle = Automatic;
+					};
 					825CDAAE1BDA4BC0003C1C12 = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -2707,6 +2766,7 @@
 			knownRegions = (
 				en,
 				English,
+				Base,
 			);
 			mainGroup = 6639618316145D0400E58CCA;
 			productRefGroup = 6639618F16145D0400E58CCA /* Products */;
@@ -2721,6 +2781,7 @@
 				825CDADB1BDA4D38003C1C12 /* SVGKitFramework-tvOSTests */,
 				321EAA612171EC8700640504 /* SVGKitFramework-OSX */,
 				32A1F09B21746F4700ABFCE1 /* SVGKitFramework-OSXTests */,
+				653EB952228B0BC6000084D2 /* SVGSourceTest */,
 			);
 		};
 /* End PBXProject section */
@@ -2744,6 +2805,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653EB951228B0BC6000084D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653EB959228B0BC8000084D2 /* Assets.xcassets in Resources */,
+				653EB95C228B0BC8000084D2 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2920,6 +2990,15 @@
 			files = (
 				66DBE4E51C42A00C00A0F0B7 /* SVGKit_iOS-RetainTests.m in Sources */,
 				66DBE4E61C42A00C00A0F0B7 /* SVGKit_iOS_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653EB94F228B0BC6000084D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653EB95F228B0BC8000084D2 /* main.m in Sources */,
+				653EB957228B0BC6000084D2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3294,6 +3373,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		653EB95A228B0BC8000084D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653EB95B228B0BC8000084D2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		321EAA682171EC8700640504 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3564,6 +3654,96 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.MaddTheSane.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		653EB961228B0BC8000084D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SVGSourceTest/SVGSourceTest.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N592S9ASDB;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SVGSourceTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devolutions.SVGSourceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		653EB962228B0BC8000084D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SVGSourceTest/SVGSourceTest.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N592S9ASDB;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SVGSourceTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devolutions.SVGSourceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -3990,6 +4170,15 @@
 			buildConfigurations = (
 				55452BFA19EC68A200B75A30 /* Debug */,
 				55452BFB19EC68A200B75A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653EB963228B0BC8000084D2 /* Build configuration list for PBXNativeTarget "SVGSourceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653EB961228B0BC8000084D2 /* Debug */,
+				653EB962228B0BC8000084D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
