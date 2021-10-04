@@ -4,6 +4,8 @@
 #import "CSSValueList.h"
 #import "CSSPrimitiveValue.h"
 
+#import "SVGKDefine_Private.h"
+
 @interface CSSStyleDeclaration()
 
 @property(nonatomic,strong) NSMutableDictionary* internalDictionaryOfStylesByCSSClass;
